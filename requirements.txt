@@ -1,0 +1,18 @@
+asgiref==3.8.1
+certifi==2024.6.2
+charset-normalizer==3.3.2
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+finank @ git+https://github.com/fakanakavera/finank.git@cd5a54a5e3496b6fdd956e5900f832724abf4bd1
+fnkauth @ git+https://github.com/fakanakavera/fnkauth.git@7c7fc5076cb113606c71900c39d2186e7ef78f6a
+fnkutils @ git+https://github.com/fakanakavera/fnkutils@3e7300f8f8347cfb3aea43b9fa2c2e0bf3272e37
+idna==3.7
+metate @ git+http://github.com/fakanakavera/mtt@f14a3bc7cd051bc06c87291cf9e5acf7ce270d25
+pillow==10.4.0
+PyJWT==2.8.0
+PyYAML==6.0.1
+requests==2.32.3
+sqlparse==0.5.0
+tzdata==2024.1
+urllib3==2.2.1
