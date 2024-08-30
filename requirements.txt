@@ -4,11 +4,11 @@ charset-normalizer==3.3.2
 Django==5.0.6
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.1
-finank @ git+https://github.com/fakanakavera/finank.git@cd5a54a5e3496b6fdd956e5900f832724abf4bd1
-fnkauth @ git+https://github.com/fakanakavera/fnkauth.git@7c7fc5076cb113606c71900c39d2186e7ef78f6a
-fnkutils @ git+https://github.com/fakanakavera/fnkutils@3e7300f8f8347cfb3aea43b9fa2c2e0bf3272e37
+finank @ git+https://github.com/fakanakavera/finank.git@main#egg=finank
+fnkauth @ git+https://github.com/fakanakavera/fnkauth.git@main#egg=fnkauth
+fnkutils @ git+https://github.com/fakanakavera/fnkutils.git@main#egg=fnkutils
 idna==3.7
-metate @ git+http://github.com/fakanakavera/mtt@f14a3bc7cd051bc06c87291cf9e5acf7ce270d25
+metate @ git+https://github.com/fakanakavera/mtt.git@main#egg=metate
 pillow==10.4.0
 PyJWT==2.8.0
 PyYAML==6.0.1
