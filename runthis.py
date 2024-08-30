@@ -13,14 +13,14 @@ def create_virtualenv():
     print("Virtual environment created successfully.")
 
 def activate_virtualenv():
-    # Determine the command to activate the virtual environment based on the OS
     if os.name == 'nt':  # Windows
         activate_command = os.path.join('venv', 'Scripts', 'activate.bat')
+        subprocess.call(activate_command, shell=True)
     else:  # Linux/Mac
         activate_command = os.path.join('venv', 'bin', 'activate')
+        # Activate the virtual environment in the current shell
+        subprocess.call(f"source {activate_command} && exec bash", shell=True)
 
-    # Use exec to replace the current process with the activated environment
-    exec(open(activate_command).read(), dict(__file__=activate_command))
     print("Virtual environment activated.")
 
 def install_requirements():
