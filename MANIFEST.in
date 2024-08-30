@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include server03/static *
+recursive-include server03/templates *
