@@ -9,6 +9,7 @@ fnkauth @ git+https://github.com/fakanakavera/fnkauth.git@main#egg=fnkauth
 fnkutils @ git+https://github.com/fakanakavera/fnkutils.git@main#egg=fnkutils
 idna==3.7
 metate @ git+https://github.com/fakanakavera/mtt.git@main#egg=metate
+metate2 @ git+https://github.com/fakanakavera/metate2.git@main#egg=metate
 pillow==10.4.0
 PyJWT==2.8.0
 PyYAML==6.0.1

@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fnkauth',
-    'metate',
+    'metate2',
     'finank',
 ]
 
